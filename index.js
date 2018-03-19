@@ -6,7 +6,7 @@ const until = process.argv[process.argv.length-1].replace("--","");
 
 let uri = `https://twitter.com/search?l=&q=from%3A${user}%20since%3A${since}%20until%3A${until}&src=typd&lang=es`;
 let nightmare = Nightmare();
-let maxScroll = 5
+let maxScroll = 500
 nightmare
     .goto(uri)
     .then(() => {
