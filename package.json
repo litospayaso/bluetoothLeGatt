@@ -4,6 +4,7 @@
   "description": "Proyecto gessamí",
   "main": "index.js",
   "scripts": {
+    "run" : "node --no-warnings --no-deprecation index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/litospayaso/rocitweet/issues"
   },
-  "homepage": "https://github.com/litospayaso/rocitweet#readme"
+  "homepage": "https://github.com/litospayaso/rocitweet#readme",
+  "dependencies": {
+    "nightmare": "^2.10.0"
+  }
 }
