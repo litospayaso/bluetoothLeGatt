@@ -4,7 +4,7 @@
   "description": "Proyecto gessamí",
   "main": "index.js",
   "scripts": {
-    "run" : "node --no-warnings --no-deprecation index.js",
+    "run": "node --no-warnings --no-deprecation index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/litospayaso/rocitweet#readme",
   "dependencies": {
+    "json2csv": "^4.0.2",
     "nightmare": "^2.10.0"
   }
 }
